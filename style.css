@@ -1,0 +1,12 @@
+h1, h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: rgb(115, 192, 255);
+    text-align: center;
+}
+
+li, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
