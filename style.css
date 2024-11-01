@@ -10,3 +10,7 @@ h1{
 li, p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.underline{
+    text-decoration: underline;
+}
