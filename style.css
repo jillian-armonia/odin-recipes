@@ -5,6 +5,8 @@
 
 h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: 10px auto 0;
 }
 
 h1{
@@ -12,8 +14,6 @@ h1{
     text-align: center;
     padding: 10px 0;
     border-bottom: 5px solid rgb(51, 119, 175);
-    width: 400px;
-    margin: 10px auto 0;
 }
 
 li, p{
@@ -34,4 +34,47 @@ li, p{
     border-right: 5px solid rgb(214, 214, 127);
     border-left: 5px solid rgb(214, 214, 127);
     padding: 15px 0;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin: 15px auto;
+    display: block;
+    background-color: rgb(255, 191, 73);
+    padding: 10px;
+}
+
+p, ul, ol{
+    margin: 5px auto;
+    width: 400px;
+    height: auto;
+    padding: 5px 25px;
+}
+
+.img-container{
+    width: 399px;
+    height: auto;
+    margin: 0 auto;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 5px 0;
+}
+
+.recipe-container{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+h2{
+    background-color: rgb(136, 225, 249);
+    padding: 2px;
+    width: 399px;
+    margin: 0;
+}
+
+h3{
+    padding-left: 15px;
 }
