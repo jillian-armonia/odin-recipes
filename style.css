@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 h1, h2, h3{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -5,12 +10,28 @@ h1, h2, h3{
 h1{
     background-color: rgb(115, 192, 255);
     text-align: center;
+    padding: 10px 0;
+    border-bottom: 5px solid rgb(51, 119, 175);
+    width: 400px;
+    margin: 10px auto 0;
 }
 
 li, p{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
 }
 
 .underline{
     text-decoration: underline;
+}
+
+.links-container{
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(245, 245, 193);
+    border-bottom: 5px solid rgb(214, 214, 127);
+    border-right: 5px solid rgb(214, 214, 127);
+    border-left: 5px solid rgb(214, 214, 127);
+    padding: 15px 0;
 }
